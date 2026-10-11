@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "donutbuilder",
+  "version": "1.0.0",
+  "name": "Donut Builder",
+  "environment": "client",
+  "entrypoints": { "client": ["com.donut.builder.DonutBuilderMod"] },
+  "mixins": ["donutbuilder.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
